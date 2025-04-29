@@ -1,0 +1,19 @@
+{
+  "name": "simple-qr-code",
+  "version": "1.0.0",
+  "description": "Simple QR Code Generator for URLs from your terminal",
+  "main": "qr-code.js",
+  "scripts": {
+    "start": "node qr-code.js"
+  },
+  "keywords": [
+    "qr-code"
+  ],
+  "author": "Bruno Germano <bruno@egermano.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.9.0",
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "readline-sync": "^1.4.10"
+  }
+}
