@@ -12,7 +12,7 @@
 3. Install dependencies:
 
    ```bash
-   npm install
+   pnpm install
    ```
 
 ## Usage
@@ -20,7 +20,7 @@
 1. Start the application:
 
    ```bash
-   npm start
+   pnpm start
    ```
 
 2. Follow the on-screen instructions to generate QR codes.
