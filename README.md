@@ -20,8 +20,15 @@
 1. Start the application:
 
    ```bash
-   pnpm start
+   pnpm start -- [options]
    ```
 
 2. Follow the on-screen instructions to generate QR codes.
 3. The generated QR code will be saved in the `output` directory.
+
+### Options
+
+- `-h`, `--help`: Show help information.
+- `-v`, `--version`: Show version information.
+- `-b`, `--bgColor`: Set the background color of the QR code (default: `#1E1E1E`).
+- `-c`, `--codeColor`: Set the color of the QR code (default: `#FFFFFF`).
